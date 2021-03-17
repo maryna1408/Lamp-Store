@@ -212,7 +212,86 @@ button {
 }
 /*=========================HEADER END===========================*/
 /*=========================MAIN START===========================*/
-
+.main{
+    padding: 4px 0 20px 0;
+}
+.main-container{
+    display: flex;
+    align-items: center;
+}
+.interier-image{
+    border-radius: 15px;
+}
+.main-image{
+    position: relative;
+}
+.interier-lamp{
+    position: absolute;
+    top: 0;
+    left: 215px;
+}
+.lamp{
+    position: relative;
+    left: -145px;
+}
+.text{
+    font-size: 24px;
+    width: 600px;
+    padding: 83px 0 80px 0;
+}
+.bottom-content{
+    border-top: 1px solid #C4C4C4;
+    display: flex;
+    justify-content: space-between;
+}
+.circle{
+    background-color: #E4D7B9;
+    width: 400px;
+    height: 452px;
+    clip-path: circle(50% at 40% 50%);
+}
+.options{
+    background-color: #BDDDDD;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    padding: 20px 28px 0 17px;
+    height: 554px;
+    position: relative;
+    right: -11px;
+    top: 30px;
+    box-shadow: inset -10px -7px 18px 0 #9F9F9F;
+}
+.options-lamp{
+    transition: .5s;
+    width: 133px;
+    height: 133px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.options-lamp:hover{
+    background-color: #DEEEEE;
+    cursor: pointer;
+}
+.mode-buttons{
+    font-size: 30px;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+}
+.mode{
+    padding: 25px;
+}
+.day-mode{
+    background-color: #FFF3DA;
+}
+.night-mode{
+    background-color: #93A5A5;
+}
 /*=========================MAIN END===========================*/
 /*=========================PAGE STYLES END===========================*/
 

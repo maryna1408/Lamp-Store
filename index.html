@@ -1,35 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
     <link rel="preload" href="css/style.css" as="font" type="text/plain/" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+      integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"
+      crossorigin="anonymous"
+    />
     <title>EASE</title>
-</head>
-<body>
+  </head>
+  <body>
     <header class="header">
-        <div class="container">
-            <div class="navbar">
-                <img width="219" height="45" src="images/logo.webp" alt="" class="logo">
-                <ul class="nav">
-                    <li>
-                        <a href="#">Collections</a>
-                    </li>
-                    <li>
-                        <a href="#">Blog</a>
-                    </li>
-                    <li>
-                        <a href="#">About</a>
-                    </li>
-                    <li>
-                        <a href="#">Contacts</a>
-                    </li>
-                </ul>
-            </div>
+      <div class="container">
+        <div class="navbar">
+          <img width="219" height="45" src="images/logo.webp" alt="" class="logo" />
+          <ul class="nav">
+            <li>
+              <a href="#">Collections</a>
+            </li>
+            <li>
+              <a href="#">Blog</a>
+            </li>
+            <li>
+              <a href="#">About</a>
+            </li>
+            <li>
+              <a href="#">Contacts</a>
+            </li>
+          </ul>
         </div>
+      </div>
     </header>
+    <main class="main">
+      <div class="container main-container">
+        <div class="content">
+          <p class="text">
+            Collection of lighting is inspired by the geometric works of the great Suprematist artists Kissitzky and
+            Kazimir Malevich. <br> <br>
+            Suprematism is a modernist movement in the art of the early twentieth century, focused on
+            the basic geometric forms, such as circles, squares, lines and rectangles. The geometric structure of the
+            lamps will always look like a small art objects in your house.
+          </p>
+          <div class="bottom-content">
+            <div class="circle"></div>
+            <img height="580px" width="158px" src="images/lamp1.webp" alt="lamp" class="lamp" />
+            <ul class="options">
+              <li class="options-lamp options-lamp1">
+                <img height="135px" width="34px" src="images/lamp1.webp" alt="lamp1" />
+              </li>
+              <li class="options-lamp options-lamp2">
+                <img height="126px" width="40px" src="images/lamp2.webp" alt="lamp2" />
+              </li>
+              <li class="options-lamp options-lamp3">
+                <img height="105px" width="72px" src="images/lamp3.webp" alt="lamp3" />
+              </li>
+              <div class="mode-buttons">
+                  <button class=" mode day-mode"><i class="fas fa-sun"></i></button>
+                  <button class=" mode night-mode"><i class="far fa-moon"></i></button>
+              </div>
+            </ul>
+          </div>
+        </div>
+        <div class="main-image">
+          <img
+            width="98px"
+            height="360px"
+            src="images/lamp1.webp"
+            alt="lamp1"
+            class="interier-lamp"
+            id="interierLamp"
+          />
+          <img height="1087px" width="867px" src="images/interier.webp" alt="interier" class="interier-image" />
+        </div>
+      </div>
+    </main>
     <script defer src="js/app.js"></script>
-</body>
+  </body>
 </html>
