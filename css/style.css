@@ -150,7 +150,7 @@ html {
   --header-font-color: #3D9090;
 }
 body {
-    font-family: sans-serif;
+  font-family: 'SF Compact Display', sans-serif;
   background-color: var(--theme-color);
   font-size: 16px;
   font-weight: 100;
@@ -176,7 +176,7 @@ button {
   display: inline-flex;
 }
 .container {
-  max-width: 1540px;
+  max-width: 1600px;
   width: 100%;
   margin: 0 auto;
 }
@@ -201,11 +201,11 @@ button {
     font-size: 21px;
     color: var(--header-font-color);
     font-weight: 400;
-    letter-spacing: 5.5%;
     transition: .3s;
+    letter-spacing: 5.5%;
 }
 .nav li:hover{
-    transform: translateY(-3px);
+    transform: translateY(-5px);
 }
 .nav li:nth-child(n+2){
     margin-left: 52px;
@@ -220,7 +220,7 @@ button {
     align-items: center;
 }
 .interier-image{
-    border-radius: 15px;
+    border-radius: 20px;
 }
 .main-image{
     position: relative;
@@ -249,6 +249,15 @@ button {
     width: 400px;
     height: 452px;
     clip-path: circle(50% at 40% 50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle-text{
+    width: 327px;
+}
+.circle-text span{
+    font-weight: 700;
 }
 .options{
     background-color: #BDDDDD;
@@ -261,7 +270,7 @@ button {
     position: relative;
     right: -11px;
     top: 30px;
-    box-shadow: inset -10px -7px 18px 0 #9F9F9F;
+    box-shadow: inset -14px -7px 13px 0 #b9c2c7;
 }
 .options-lamp{
     transition: .5s;
@@ -291,6 +300,7 @@ button {
 }
 .night-mode{
     background-color: #93A5A5;
+    color: #fff;
 }
 /*=========================MAIN END===========================*/
 /*=========================PAGE STYLES END===========================*/
