@@ -176,7 +176,7 @@ button {
   display: inline-flex;
 }
 .container {
-  max-width: 1600px;
+  max-width: 1580px;
   width: 100%;
   margin: 0 auto;
 }
@@ -220,7 +220,7 @@ button {
     align-items: center;
 }
 .interier-image{
-    border-radius: 20px;
+  border-radius: 20px;
 }
 .main-image{
     position: relative;
@@ -229,10 +229,17 @@ button {
     position: absolute;
     top: 0;
     left: 215px;
+    height: auto;
+    width: 100px;
+}
+.content{
+  width: 710px;
 }
 .lamp{
-    position: relative;
-    left: -145px;
+    position: absolute;
+    left: 320px;
+    width: 158px;
+    height: auto;
 }
 .text{
     font-size: 24px;
@@ -246,6 +253,7 @@ button {
     border-top: 1px solid #C4C4C4;
     display: flex;
     justify-content: space-between;
+    position: relative;
 }
 .circle{
     background-color: #E4D7B9;
@@ -270,14 +278,16 @@ button {
     background-color: #BDDDDD;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
     align-items: center;
-    border-radius: 15px;
-    padding: 20px 28px 0 17px;
+    border-radius: 15px 0 0 15px;
+    padding-top: 20px;
+    width: 178px;
     height: 554px;
     position: relative;
-    right: -11px;
     top: 41px;
-    box-shadow: inset -14px -7px 13px 0 #b9c2c7;
+    box-shadow: inset -55px -6px 13px -52px #ADADAD;
 }
 .options-lamp{
     transition: .5s;
@@ -289,6 +299,10 @@ button {
     border-radius: 10px;
     margin-bottom: 20px;
 }
+.options-lamp-img{
+  height: 120px;
+  width: auto;
+}
 .options-lamp:hover{
     background-color: #DEEEEE;
     cursor: pointer;
@@ -296,11 +310,15 @@ button {
 .mode-buttons{
     font-size: 30px;
     display: flex;
-    position: absolute;
+    /* position: absolute; */
     bottom: 0;
+    width: 100%;
 }
 .mode{
-    padding: 25px;
+    padding: 25px 0;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
 }
 .day-mode{
     background-color: #FFF3DA;
